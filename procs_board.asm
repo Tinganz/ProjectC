@@ -143,7 +143,7 @@ getChar_atXY:
 	
 .data
 ######                  ‘a’    ‘d’   ‘w’   ’s’          # valid keys for which scancodes are on next line
-key_array:	.word	0x1C, 0x23, 0x1D, 0x1B   	# define as many scancodes here as you need
+key_array:	.word	0x1C, 0x23, 0x1D, 0x1B, 0x3B, 0x42, 0x4B, 0x43  	# define as many scancodes here as you need
 key_array_end:	    # marks end of key array, so number of keys can be calculated
 
 ## You can change the key scancodes above to suit your application.
